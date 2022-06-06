@@ -62,13 +62,19 @@ class LocalizationScript {
         
         for languagesCode in languagesCodes {
             localizationPerLanguage[languagesCode] = [String]()
-            for i in 0 ... dataFrame.rows.count - 1 {
-                if let key = dataFrame["KEY"][i] {
-                    if let value = dataFrame[languagesCode][i] as? String {
+            dataFrame.rows.enumerated().forEach { index, value in
+                if let key = dataFrame["KEY"][index],
+                    dataFrame.columns.map( { $0.name } ).contains(languagesCode) {
+                    if let value = dataFrame[languagesCode][index] as? String {
                         let localization = value.removeEndLinesAndSpacesFromTheEndOfText()
                         localizationPerLanguage[languagesCode]?.append("\"\(key)\" = \"\(localization)\";")
                     } else {
-                        localizationPerLanguage[languagesCode]?.append("\"\(key)\" = \"\(key)\";")
+                        if let value = dataFrame["en"][index] as? String {
+                            let localization = value.removeEndLinesAndSpacesFromTheEndOfText()
+                            localizationPerLanguage[languagesCode]?.append("\"\(key)\" = \"\(localization)\";")
+                        } else {
+                            localizationPerLanguage[languagesCode]?.append("\"\(key)\" = \"\(key)\";")
+                        }
                     }
                 }
             }
