@@ -36,21 +36,25 @@ class LocalizationScript {
     
     // MARK: - Run
     func run() {
-        readCSVFile()
+        guard readCSVFile() else {
+            return
+        }
         handleFilesLanguagesMapping()
         constructLocalization()
         getLocalizableFilesAndWriteDataToEachFile()
     }
     
     // MARK: - Read CSV
-    private func readCSVFile() {
+    private func readCSVFile() -> Bool{
         do {
             let url = URL(fileURLWithPath: csvFilePath)
             let result = try DataFrame(contentsOfCSVFile: url)
             dataFrame = result
+            return true
             
         } catch {
             print("Error in reading CSV file, please check it and try again")
+            return false
         }
     }
     
