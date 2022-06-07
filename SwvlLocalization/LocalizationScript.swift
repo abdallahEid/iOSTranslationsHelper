@@ -50,7 +50,7 @@ class LocalizationScript {
             dataFrame = result
             
         } catch {
-            print("Error in reading file")
+            print("Error in reading CSV file, please check it and try again")
         }
     }
     
@@ -80,18 +80,20 @@ class LocalizationScript {
             }
         }
     }
-    
+   
     // MARK: - Get LocalizableFiles And Write Data To Each File
     private func getLocalizableFilesAndWriteDataToEachFile(){
+        
+        if localizableFilesUrlsStrings.isEmpty {
+            print("There are no translations for this app")
+            return
+        }
+        
         localizableFilesUrlsStrings.forEach {
             if let language = self.filesLanguagesMap[$0]  {
                 print("Adding localizations to file \($0) ......")
-                fileHandler.writeTextToFile(texts: self.localizationPerLanguage[language], filePathString: $0) { success in
-                    if success {
-                        print("success in writing in file")
-                    } else {
-                        print("Error in writing in file")
-                    }
+                fileHandler.writeTextToFile(texts: self.localizationPerLanguage[language], filePathString: $0) { message in
+                    print(message)
                 }
                 print("Localizations added to file \($0)")
             } else {

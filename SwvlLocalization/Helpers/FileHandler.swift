@@ -45,7 +45,7 @@ class FileHandler {
         let fileManager = FileManager.default
         var files = [String]() // Using a URL instead of a path.
 
-        let enumerator: FileManager.DirectoryEnumerator = fileManager.enumerator(atPath: directoryPath)!
+        guard let enumerator: FileManager.DirectoryEnumerator = fileManager.enumerator(atPath: directoryPath) else { return [] }
         let directoryUrl = URL(fileURLWithPath: directoryPath)
 
         while let filepath = enumerator.nextObject() as? String {

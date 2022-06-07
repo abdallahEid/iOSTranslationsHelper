@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8CAC61F8284F5810000E2EC0 /* LocalizationScript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBE6DD5284798D600E80AE8 /* LocalizationScript.swift */; };
 		8CBE6DCD2847970700E80AE8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBE6DCC2847970700E80AE8 /* main.swift */; };
-		8CBE6DD6284798D600E80AE8 /* LocalizationScript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBE6DD5284798D600E80AE8 /* LocalizationScript.swift */; };
 		8CBE6DD82847ACEC00E80AE8 /* StringEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBE6DD72847ACEC00E80AE8 /* StringEx.swift */; };
 		8CBE6DDB2847AD1C00E80AE8 /* DataEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBE6DDA2847AD1C00E80AE8 /* DataEx.swift */; };
 		8CBE6DDE2847AF2B00E80AE8 /* FileHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBE6DDD2847AF2B00E80AE8 /* FileHandler.swift */; };
@@ -150,9 +150,9 @@
 			files = (
 				8CBE6DDE2847AF2B00E80AE8 /* FileHandler.swift in Sources */,
 				8CBE6DDB2847AD1C00E80AE8 /* DataEx.swift in Sources */,
+				8CAC61F8284F5810000E2EC0 /* LocalizationScript.swift in Sources */,
 				8CBE6DCD2847970700E80AE8 /* main.swift in Sources */,
 				8CBE6DD82847ACEC00E80AE8 /* StringEx.swift in Sources */,
-				8CBE6DD6284798D600E80AE8 /* LocalizationScript.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
