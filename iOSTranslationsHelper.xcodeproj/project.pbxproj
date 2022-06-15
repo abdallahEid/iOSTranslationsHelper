@@ -27,7 +27,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		8CBE6DC92847970700E80AE8 /* SwvlLocalization */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwvlLocalization; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CBE6DC92847970700E80AE8 /* iOSTranslationsHelper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = iOSTranslationsHelper; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CBE6DCC2847970700E80AE8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8CBE6DD5284798D600E80AE8 /* LocalizationScript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationScript.swift; sourceTree = "<group>"; };
 		8CBE6DD72847ACEC00E80AE8 /* StringEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringEx.swift; sourceTree = "<group>"; };
@@ -49,7 +49,7 @@
 		8CBE6DC02847970700E80AE8 = {
 			isa = PBXGroup;
 			children = (
-				8CBE6DCB2847970700E80AE8 /* SwvlLocalization */,
+				8CBE6DCB2847970700E80AE8 /* iOSTranslationsHelper */,
 				8CBE6DCA2847970700E80AE8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,12 +57,12 @@
 		8CBE6DCA2847970700E80AE8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8CBE6DC92847970700E80AE8 /* SwvlLocalization */,
+				8CBE6DC92847970700E80AE8 /* iOSTranslationsHelper */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8CBE6DCB2847970700E80AE8 /* SwvlLocalization */ = {
+		8CBE6DCB2847970700E80AE8 /* iOSTranslationsHelper */ = {
 			isa = PBXGroup;
 			children = (
 				8CBE6DCC2847970700E80AE8 /* main.swift */,
@@ -70,7 +70,7 @@
 				8CBE6DDC2847AD4000E80AE8 /* Helpers */,
 				8CBE6DD92847ACFE00E80AE8 /* Extensions */,
 			);
-			path = SwvlLocalization;
+			path = iOSTranslationsHelper;
 			sourceTree = "<group>";
 		};
 		8CBE6DD92847ACFE00E80AE8 /* Extensions */ = {
@@ -93,9 +93,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8CBE6DC82847970700E80AE8 /* SwvlLocalization */ = {
+		8CBE6DC82847970700E80AE8 /* iOSTranslationsHelper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8CBE6DD02847970700E80AE8 /* Build configuration list for PBXNativeTarget "SwvlLocalization" */;
+			buildConfigurationList = 8CBE6DD02847970700E80AE8 /* Build configuration list for PBXNativeTarget "iOSTranslationsHelper" */;
 			buildPhases = (
 				8CBE6DC52847970700E80AE8 /* Sources */,
 				8CBE6DC62847970700E80AE8 /* Frameworks */,
@@ -105,9 +105,9 @@
 			);
 			dependencies = (
 			);
-			name = SwvlLocalization;
+			name = iOSTranslationsHelper;
 			productName = SwvlLocalization;
-			productReference = 8CBE6DC92847970700E80AE8 /* SwvlLocalization */;
+			productReference = 8CBE6DC92847970700E80AE8 /* iOSTranslationsHelper */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -125,7 +125,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8CBE6DC42847970700E80AE8 /* Build configuration list for PBXProject "SwvlLocalization" */;
+			buildConfigurationList = 8CBE6DC42847970700E80AE8 /* Build configuration list for PBXProject "iOSTranslationsHelper" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -138,7 +138,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8CBE6DC82847970700E80AE8 /* SwvlLocalization */,
+				8CBE6DC82847970700E80AE8 /* iOSTranslationsHelper */,
 			);
 		};
 /* End PBXProject section */
@@ -297,7 +297,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8CBE6DC42847970700E80AE8 /* Build configuration list for PBXProject "SwvlLocalization" */ = {
+		8CBE6DC42847970700E80AE8 /* Build configuration list for PBXProject "iOSTranslationsHelper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8CBE6DCE2847970700E80AE8 /* Debug */,
@@ -306,7 +306,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8CBE6DD02847970700E80AE8 /* Build configuration list for PBXNativeTarget "SwvlLocalization" */ = {
+		8CBE6DD02847970700E80AE8 /* Build configuration list for PBXNativeTarget "iOSTranslationsHelper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8CBE6DD12847970700E80AE8 /* Debug */,

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8CBE6DC82847970700E80AE8"
-               BuildableName = "SwvlLocalization"
-               BlueprintName = "SwvlLocalization"
-               ReferencedContainer = "container:SwvlLocalization.xcodeproj">
+               BuildableName = "iOSTranslationsHelper"
+               BlueprintName = "iOSTranslationsHelper"
+               ReferencedContainer = "container:iOSTranslationsHelper.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8CBE6DC82847970700E80AE8"
-            BuildableName = "SwvlLocalization"
-            BlueprintName = "SwvlLocalization"
-            ReferencedContainer = "container:SwvlLocalization.xcodeproj">
+            BuildableName = "iOSTranslationsHelper"
+            BlueprintName = "iOSTranslationsHelper"
+            ReferencedContainer = "container:iOSTranslationsHelper.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <CommandLineArguments>
@@ -68,9 +68,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8CBE6DC82847970700E80AE8"
-            BuildableName = "SwvlLocalization"
-            BlueprintName = "SwvlLocalization"
-            ReferencedContainer = "container:SwvlLocalization.xcodeproj">
+            BuildableName = "iOSTranslationsHelper"
+            BlueprintName = "iOSTranslationsHelper"
+            ReferencedContainer = "container:iOSTranslationsHelper.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
